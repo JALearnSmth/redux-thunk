@@ -9,7 +9,6 @@ const App = (props) => {
 
   return (
     <div className="App">
-      {console.log(props)}
       {props.countries &&
         props.countries.map((country) => {
           return (
